@@ -1,0 +1,84 @@
+.messageSender {
+  display: flex;
+  margin-top: 30px;
+  flex-direction: column;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 1px 2px 0.5px #999999;
+  width: 60%;
+}
+
+.messageSender__top {
+  display: flex;
+  border-bottom: 1px solid #f2f2f2;
+  padding-bottom: 15px;
+  padding: 15px;
+}
+
+.messageSender__top > form {
+  flex: 1;
+  display: flex;
+}
+
+.messageSender__top > form > input {
+  outline-width: 0;
+  border: none;
+  padding: 5px 20px;
+  margin: 0 10px;
+  border-radius: 999px;
+  background-color: #f0f2f5;
+  cursor: pointer;
+}
+
+.messageSender__top > form > input:hover {
+  background-color: #e4e6e9;
+}
+
+.messageSender__top > form > input:active {
+  background-color: #d8d9dc;
+}
+
+.messageSender__top > form > input:focus {
+  cursor: text;
+}
+
+.messageSender__top > form > button {
+  display: none;
+}
+
+.messageSender__input {
+  flex: 1;
+}
+
+.messageSender__bottom {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.messageSender__option {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  color: gray;
+  margin: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.messageSender__option > h3 {
+  font-size: medium;
+  margin-left: 10px;
+}
+
+.messageSender__option:not(hover) {
+  transition: 0.3s;
+}
+
+.messageSender__option:hover {
+  background-color: #f2f2f2;
+  transition: 0.1s;
+}
+
+.messageSender__option:active {
+  background-color: #e5e5e5;
+}
